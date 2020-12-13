@@ -1,0 +1,92 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.group_details {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 32px;
+
+  .group_image_container {
+    margin-right: 32px;
+    overflow: hidden;
+    height: max-content;
+    width: 150px;
+
+    .group_image {
+      height: 100px;
+      width: 150px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 10px;
+    }
+    .group_logo_upload {
+      cursor: pointer;
+      font-size: 12px;
+      text-align: center;
+      span {
+        margin-left: 2px;
+      }
+    }
+
+    .group_logo_upload:hover {
+      color: #3c98f5;
+    }
+  }
+
+  .group_info {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+    .fields {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 12px;
+      input {
+        border-radius: 20px;
+        padding: 12px;
+        background-color: transparent;
+        text-align: center;
+        border: 1px solid #fff;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.user_details {
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.user {
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+.button_container {
+  margin-top: 32px;
+
+  .button {
+    border: none;
+    padding: 20px 40px;
+    color: #fff;
+    border-radius: 4px;
+    margin-left: 32px;
+  }
+
+  .success {
+    background-color: #0074ba;
+  }
+  .cancle {
+    background-color: #ff5b68;
+  }
+}

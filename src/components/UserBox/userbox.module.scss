@@ -1,0 +1,29 @@
+.user_box {
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+
+  .user_name {
+    background-color: #3c98f5;
+    padding: 4px;
+    text-align: center;
+  }
+
+  .user_image {
+    height: calc(100% - 29px);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .checkIcon {
+      position: absolute;
+      right: 0px;
+      width: 25px;
+      text-align: center;
+      z-index: 1;
+      background-color: #3c98f5;
+    }
+  }
+}
